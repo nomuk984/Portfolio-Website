@@ -2,6 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Mako&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
 @import url("./css/home.css");
+@import url("./css/about-me.css");
+@import url("./css/references.css");
+@import url("./css/projects.css");
 
 :root {
     --white: #ffffff;
@@ -80,7 +83,8 @@ section {
     z-index: 1;
 }
 
-h1 {
+h1,
+h2 {
     position: relative;
     font-family: var(--title-font);
     font-size: var(--font-size-m);
@@ -94,6 +98,13 @@ h1 {
 h4 {
     font-family: var(--subtitle-font);
     font-size: var(--font-size-xs);
+    font-weight: 400;
+    color: var(--black);
+}
+
+p {
+    font-family: var(--text-font);
+    font-size: var(--font-size-xxs);
     font-weight: 400;
     color: var(--black);
 }
@@ -141,6 +152,10 @@ a {
     h1 {
         font-size: var(--font-size-lg);
     }
+
+    .logo .name {
+        font-size: var(--font-size-xs);
+    }
 }
 
 @media (min-width: 1200px) {
@@ -152,16 +167,30 @@ a {
         font-size: var(--font-size-xxl);
     }
 
+    h2 {
+        font-size: var(--font-size-xl);
+    }
+
     h4 {
         font-size: var(--font-size-s);
     }
+
+    p {
+        font-size: var(--font-size-xs);
+    }
+
     .buttons-container {
         flex-direction: row;
     }
 
-    .buttons-container a {
+    .buttons-container a,
+    button {
         width: 300px;
         height: 50px;
         font-size: var(--font-size-xs);
+    }
+
+    .scroll-up {
+        right: 48px;
     }
 }
