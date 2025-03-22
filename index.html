@@ -11,6 +11,11 @@
         />
 
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <script
+            type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+        ></script>
         <script type="module" src="script.js" defer></script>
     </head>
     <body>
@@ -109,46 +114,58 @@
                 </div>
                 <h2>What Others Say</h2>
                 <div class="swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="content">
-                                <div class="header">
-                                    <img
-                                        src="./images/references/naruto.webp"
-                                        alt=""
-                                    />
-                                    <div class="author-info">
-                                        <span class="name"
-                                            >Fernando Ordonez</span
-                                        >
-                                        <span class="info"
-                                            >Lorem, ipsum dolor.</span
-                                        >
-                                    </div>
-                                </div>
-                                <div class="reference">
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit. Voluptatum, omnis.
-                                        Quas officia ipsum nam aperiam
-                                        dignissimos delectus consequuntur
-                                        distinctio ab voluptates nisi eaque
-                                        possimus sint placeat, est odit enim eos
-                                        ex libero. Officia porro ab blanditiis
-                                        consequuntur minima corrupti odio.
-                                    </p>
-                                    <a href="">Read More</a>
-                                </div>
-                            </div>
-                            <img
-                                src="./images/icons/quotes.png"
-                                alt=""
-                                class="quotes"
-                            />
-                            <div class="line-decoration"></div>
-                        </div>
-                    </div>
+                    <div class="swiper-wrapper"></div>
                     <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <section id="contact-me">
+                <img
+                    src="./images/doodles/background-wave-3.svg"
+                    class="background-wave"
+                    alt=""
+                />
+                <h2>Drop Me A Message</h2>
+                <div class="content">
+                    <form id="form">
+                        <div>
+                            <input
+                                type="text"
+                                placeholder="First Name"
+                                name="name"
+                                required
+                            />
+                            <input
+                                type="text"
+                                placeholder="Email Address"
+                                name="email"
+                                required
+                            />
+                        </div>
+                        <input
+                            type="text"
+                            placeholder="Subject"
+                            name="subject"
+                            required
+                        />
+                        <textarea
+                            placeholder="Message"
+                            name="message"
+                        ></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                    <div class="info">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Suscipit, esse! Eligendi esse impedit facilis
+                            alias nesciunt culpa delectus est ipsa consectetur
+                            exercitationem voluptatum cumque quasi minus aut
+                            similique, architecto deserunt. <br /><br />Lorem
+                            ipsum dolor sit, amet consectetur adipisicing elit.
+                            Error magni unde voluptate recusandae libero autem?
+                        </p>
+                        <div class="socials"></div>
+                    </div>
                 </div>
             </section>
         </main>

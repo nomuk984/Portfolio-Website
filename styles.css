@@ -5,6 +5,7 @@
 @import url("./css/about-me.css");
 @import url("./css/references.css");
 @import url("./css/projects.css");
+@import url("./css/contact-me.css");
 
 :root {
     --white: #ffffff;
@@ -122,6 +123,7 @@ a {
     width: 100%;
 }
 
+button,
 .buttons-container a {
     all: unset;
     width: 100%;
@@ -142,6 +144,7 @@ a {
     transition: 0.3s ease all;
 }
 
+button:hover,
 .buttons-container a:hover {
     background-color: var(--red);
     box-shadow: var(--light-shadow);
