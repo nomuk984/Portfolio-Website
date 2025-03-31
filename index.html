@@ -19,13 +19,34 @@
         <script type="module" src="script.js" defer></script>
     </head>
     <body>
+        <div class="menu">
+            <span>Menu</span>
+            <h3 class="name">Nomuka</h3>
+            <div class="nav-links"></div>
+            <img src="./images/icons/close.svg" class="close-menu" />
+        </div>
+        <nav>
+            <a href="#" class="logo">
+                <span class="circle">N</span>
+                <span class="name">Nomuka</span>
+            </a>
+            <div class="nav-links"></div>
+            <img src="./images/icons/open-menu.svg" class="open-menu" />
+        </nav>
         <main>
             <section id="home">
                 <img
                     src="./images/doodles/background-wave-1.svg"
                     class="background-wave"
                 />
-                <div class="navigation"></div>
+                <div class="navigation">
+                    <a href="#" class="logo">
+                        <span class="circle">N</span>
+                        <span class="name">Nomuka</span>
+                    </a>
+                    <div class="nav-links"></div>
+                    <img src="./images/icons/open-menu.svg" class="open-menu" />
+                </div>
                 <div class="container">
                     <div class="images-container">
                         <img src="./images/doodles/blob.png" class="blob" />
@@ -118,6 +139,17 @@
                     <div class="swiper-pagination"></div>
                 </div>
             </section>
+            <section id="projects">
+                <div class="header">
+                    <h2>Projects I've built</h2>
+                    <div class="filter-container">
+                        <span>Filter By:</span>
+                        <select></select>
+                    </div>
+                </div>
+                <div class="projects-container"></div>
+                <button>Load More Projects</button>
+            </section>
 
             <section id="contact-me">
                 <img
@@ -169,5 +201,16 @@
                 </div>
             </section>
         </main>
+        <footer>
+            <div class="links"></div>
+            <div class="socials"></div>
+            <span class="copyright">
+                &#169; All rights Reserved By
+                <a href="#">Nomundari Yanjindolgor </a>
+            </span>
+        </footer>
+        <a href="#" class="scroll-up">
+            <img src="./images/icons/scroll-up.svg" />
+        </a>
     </body>
 </html>

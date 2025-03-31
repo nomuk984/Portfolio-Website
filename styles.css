@@ -4,8 +4,10 @@
 @import url("./css/home.css");
 @import url("./css/about-me.css");
 @import url("./css/references.css");
-@import url("./css/projects.css");
 @import url("./css/contact-me.css");
+@import url("./css/projects.css");
+@import url("./css/navigation.css");
+@import url("./css/footer.css");
 
 :root {
     --white: #ffffff;
@@ -94,6 +96,11 @@ h2 {
     text-align: center;
     width: max-content;
     z-index: 1;
+}
+h3 {
+    font-family: var(--title-font);
+    font-size: var(--font-size-s);
+    color: var(--black);
 }
 
 h4 {
